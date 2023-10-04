@@ -14,6 +14,8 @@ function userInformationHTML(user) {
             </div>`;
 }
 
+
+
 function fetchGitHubInformation(event) {
     var username = $("#gh-username").val();
     if (!username) {
