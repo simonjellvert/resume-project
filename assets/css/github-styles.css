@@ -161,7 +161,9 @@ img {
 /* input field */
 
 #gh-username {
-    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     padding: 5px 8px;
     font-size: 1.4em;
     color: #666;
